@@ -7,24 +7,25 @@
     <title>Panda Ecomarse </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/967a678206.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
     <header class="container">
-        <nav class="navbar navbar-expand-lg bg-light ">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top ">
             <div class="container">
                 <img src="images/logo.png" alt="">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#slider">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Product</a>
+                            <a class="nav-link" href="#catagory">Product</a>
                         </li>
 
                         <li class="nav-item">
@@ -38,17 +39,17 @@
             </div>
         </nav>
 
-        <section class="">
+        <section class="my-5" id="slider">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item bg-info rounded-3">
+                    <div class="carousel-item  rounded-3 custom-carosel-color">
                         <div class="row">
-                            <div class="col-lg-7 d-flex align-items-center ps-5">
+                            <div class="col-lg-7 d-flex align-items-center ps-5 ">
                                 <div>
                                     <h2>Cooll Dude Headphone</h2>
                                     <p>This is the Best.headphone in the world for people who just want to waste time in front of funky world.</p>
                                     <h1>$600</h1>
-                                    <button class=" btn btn-warning "> Buy Now</button>
+                                    <button class=" btn custom-btn-color"> Buy Now</button>
                                 </div>
                             </div>
                             <div class="col-lg-5 ">
@@ -56,14 +57,14 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item active bg-info rounded-3">
+                    <div class="carousel-item active  rounded-3 custom-carosel-color">
                         <div class="row">
-                            <div class="col-lg-7 d-flex align-items-center ps-5">
+                            <div class="col-lg-7 d-flex align-items-center ps-5 ">
                                 <div>
                                     <h2>Cooll Dude Headphone</h2>
                                     <p>This is the Best.headphone in the world for people who just want to waste time in front of funky world.</p>
                                     <h1>$600</h1>
-                                    <button class=" btn btn-warning "> Buy Now</button>
+                                    <button class=" btn custom-btn-color"> Buy Now</button>
                                 </div>
                             </div>
                             <div class="col-lg-5 ">
@@ -72,9 +73,9 @@
                         </div>
                     </div>
 
-                    <div class="carousel-item  bg-success rounded-3">
+                    <div class="carousel-item   rounded-3 custom-carosel-color">
                         <div class="row">
-                            <div class="col-lg-7 d-flex align-items-center ps-5">
+                            <div class="col-lg-7 d-flex align-items-center ps-5 ">
                                 <div>
                                     <h2>Cooll Dude Headphone</h2>
                                     <p>This is the Best.headphone in the world for people who just want to waste time in front of funky world.</p>
@@ -102,7 +103,7 @@
         </section>
     </header>
     <main>
-        <div class="container overflow-hidden text-center my-5">
+        <div class="container overflow-hidden text-center my-5" id="catagory">
             <div class="row gy-5">
                 <div class="col-lg-4 col-md-6 col-sm-12 ">
                     <div class="p-3 border bg-info d-flex align-items-center rounded-3 justify-content-around ">
@@ -127,7 +128,7 @@
         </div>
 
         <!-- shoes section start -->
-        <section>
+        <section id="shoes">
             <div class="container my-5">
                 <h1 class="mb-3">Shoes</h1>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
@@ -139,7 +140,7 @@
 
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
                                 <h3>$120</h3>
-                                <button class="btn btn-primary">Buy Now <i class="fa-thin fa-chevrons-right"></i></button>
+                                <button class="btn custom-btn-color">Buy Now <i class="fa-thin fa-chevrons-right"></i></button>
                             </div>
                         </div>
                     </div>
@@ -150,7 +151,7 @@
                                 <h5 class="card-title">Nike 360</h5>
                                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                                 <h3>$320</h3>
-                                <button class="btn btn-primary">Buy Now <i class="fa-thin fa-chevrons-right"></i></button>
+                                <button class="btn custom-btn-color">Buy Now <i class="fa-thin fa-chevrons-right"></i></button>
                             </div>
                         </div>
                     </div>
@@ -161,7 +162,7 @@
                                 <h5 class="card-title">Red Airmax</h5>
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.</p>
                                 <h3>$450</h3>
-                                <button class="btn btn-primary">Buy Now <i class="fa-thin fa-chevrons-right"></i></button>
+                                <button class="btn custom-btn-color">Buy Now <i class="fa-thin fa-chevrons-right"></i></button>
                             </div>
                         </div>
                     </div>
@@ -174,43 +175,43 @@
         <!-- shoes section End -->
 
         <!-- Backpack Section Start -->
-        <section>
+        <section id="bags">
             <div class="container my-5">
                 <h1 class="mb-3">Backpack</h1>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     <div class="col">
-                        <div class="card h-80 shadow-lg p-3 mb-5 bg-body rounded border border-0">
+                        <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded border border-0">
                             <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Red Laltu Bag</h5>
                                 <h3>$120</h3>
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 
-                                <button class="btn btn-primary my-5">Buy Now <i class="fa-thin fa-chevrons-right"></i></button>
+                                <button class="btn custom-btn-color my-5">Buy Now <i class="fa-thin fa-chevrons-right"></i></button>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-80 shadow-lg p-3 mb-5 bg-body rounded border border-0">
+                        <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded border border-0">
                             <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Blue Niltu Bag</h5>
                                 <h3>$120</h3>
                                 <p class="card-text">This card has supporting text below as a natural lead-in to additional content</p>
 
-                                <button class="btn btn-primary my-5">Buy Now <i class="fa-thin fa-chevrons-right"></i></button>
+                                <button class="btn custom-btn-color my-5">Buy Now <i class="fa-thin fa-chevrons-right"></i></button>
                             </div>
                         </div>
                     </div>
                     <div class="col">
-                        <div class="card h-80 shadow-lg p-3 mb-5 bg-body rounded border border-0">
+                        <div class="card h-100 shadow-lg p-3 mb-5 bg-body rounded border border-0">
                             <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Black Kaltu Bag</h5>
                                 <h3>$120</h3>
                                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action..</p>
 
-                                <button class="btn btn-primary my-5">Buy Now <i class="fa-thin fa-chevrons-right"></i></button>
+                                <button class="btn custom-btn-color my-5">Buy Now <i class="fa-thin fa-chevrons-right"></i></button>
                             </div>
                         </div>
                     </div>
@@ -218,9 +219,30 @@
                 </div>
             </div>
 
-        </section>
+        </section id=subscrib>
         <!-- Backpack Section End -->
+
+        <!-- Submit Section Start -->
+        <section class="container rounded-3 d-flex justify-content-center align-items-center" style="background-color:#fceae8; height: 300px;">
+            <div>
+                <h2>LET'S STAY IN TOUCH</h2>
+                <p>Get updates on sales, specials and more</p>
+                <form>
+                    <div class="mb-1">
+                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                    </div>
+
+                    <button type="submit" class="btn custom-btn-color">Submit</button>
+                </form>
+            </div>
+        </section>
+        <!-- Submit Section Start -->
     </main>
+
+    <footer class="mt-5 container text-center">
+        <p><small>©2022. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+    </footer>
 
 
 
